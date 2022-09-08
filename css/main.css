@@ -19,15 +19,23 @@ h1 {
 h2{
     margin-top: 1rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
 }
-
+h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
 img{width: 100%;}
 
 a{
     text-decoration: none;
     color: #c5c5c5;
 }
+nav, ul, li, a{
+    width: 100%;
+     text-align: center;
+    }
 
 /***** reusable classes*****/
 .wrapper{
@@ -38,7 +46,6 @@ a{
     padding: 10px;
     gap: 10px;
     display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: space-between;
 }
@@ -46,6 +53,29 @@ a{
 .navigation{
     background-color: #1c1c2c;
 }
-.navigation ul{
-    /* text-align: center; */
+nav ul{
+    flex-direction: column;
 }
+header{
+    background-color: #c5c5c5;
+}
+header h1{text-align: center;}
+header > div{
+    flex-direction: column;
+}
+footer{
+    color: #c5c5c5;
+    background-color: #1c1c2c;
+    line-height: 3rem;
+}
+
+@media screen and (min-width: 760px){
+    .navigation ul{flex-direction: row;}
+    header > div {
+        flex-direction: row;
+    }
+    header > div > div { 
+        width: 50%;
+    }
+}
+    
