@@ -22,6 +22,13 @@ h2{
     font-weight: 700;
 }
 
+img{width: 100%;}
+
+a{
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
 /***** reusable classes*****/
 .wrapper{
     margin: 0px auto;
@@ -32,6 +39,13 @@ h2{
     gap: 10px;
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: space-between;
 }
-/**************************
+/**************************/
+.navigation{
+    background-color: #1c1c2c;
+}
+.navigation ul{
+    /* text-align: center; */
+}
