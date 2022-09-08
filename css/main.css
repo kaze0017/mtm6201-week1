@@ -72,6 +72,7 @@ header > div{
 main {flex-direction: column;}
 main h3, main p {text-align: left;}
 footer{
+    padding: 0 3rem;
     color: #c5c5c5;
     background-color: #1c1c2c;
     line-height: 3rem;
