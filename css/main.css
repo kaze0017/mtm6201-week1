@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+ --texbight: #b5b5b5;
+}
 
 html{
     font-size: 16px;
@@ -30,7 +33,7 @@ img{width: 100%;}
 
 a{
     text-decoration: none;
-    color: #c5c5c5;
+    color: var(--texbight) ;
 }
 nav, ul, li, a{
     width: 100%;
@@ -73,13 +76,13 @@ main {flex-direction: column;}
 main h3, main p {text-align: left;}
 footer{
     padding: 0 3rem;
-    color: #c5c5c5;
+    color: var(--texbight);
     background-color: #1c1c2c;
     line-height: 3rem;
     text-align: center;
 }
 footer i {
-    color: #c5c5c5;
+    color: var(--texbight);
 }
 .contact{
     flex-direction: column;
