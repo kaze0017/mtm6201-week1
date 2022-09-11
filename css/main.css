@@ -75,6 +75,7 @@ header > div{
 main {flex-direction: column;}
 main h3, main p {text-align: left;}
 footer{
+    font-size: 0.75rem;
     padding: 0 3rem;
     color: var(--texbight);
     background-color: #1c1c2c;
