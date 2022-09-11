@@ -63,7 +63,7 @@ nav ul{
 }
 header{
     padding-top: 6rem;
-    background-color: #c5c5c5;
+    background-color: #3EA2CE;
 }
 header h1{text-align: center;}
 header > div{
@@ -76,6 +76,13 @@ footer{
     color: #c5c5c5;
     background-color: #1c1c2c;
     line-height: 3rem;
+    text-align: center;
+}
+footer i {
+    color: #c5c5c5;
+}
+.contact{
+    flex-direction: column;
 }
 
 @media screen and (min-width: 760px){
@@ -91,6 +98,9 @@ footer{
     }
     header > div > div { 
         width: 50%;
+    }
+    .contact{
+        flex-direction: row;
     }
 }
     
