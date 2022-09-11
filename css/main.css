@@ -44,10 +44,12 @@ nav, ul, li, a{
     }
 
 /***** reusable classes*****/
+/** wrapper keeps every thing on the center **/
 .wrapper{
     margin: 0px auto;
     max-width: 1200px;
 }
+/**** a default class for flex elements **/
 .container{
     padding: 10px;
     gap: 10px;
